@@ -43,7 +43,7 @@ With the prerequisites done, you can proceed with either the Quick installer or 
 ## Quick installer
 Install RaspAP from your RaspberryPi's shell prompt:
 ```sh
-wget -q https://git.io/voEUQ -O /tmp/raspap && bash /tmp/raspap
+wget -q https://git.io/fjuoU -O /tmp/raspap && bash /tmp/raspap
 ```
 The installer will complete the steps in the manual installation (below) for you.
 
@@ -53,8 +53,8 @@ configured as an access point as follows:
   * Username: admin
   * Password: secret
 * DHCP range: 10.3.141.50 to 10.3.141.255
-* SSID: `raspi-webgui`
-* Password: ChangeMe
+* SSID: `tkwifi`
+* Password: `tn24549105`
 
 **Note:** As the name suggests, the Quick Installer is a great way to quickly setup a new AP. However, it does not automagically detect the unique configuration of your RPi. Best results are obtained by connecting an RPi to ethernet (`eth0`) or as a WiFi client, also known as managed mode, with `wlan0`. For the latter, refer to [this FAQ](https://github.com/billz/raspap-webgui/wiki/FAQs#how-do-i-prepare-the-sd-card-to-connect-to-wifi-in-headless-mode). Please [read this](https://github.com/billz/raspap-webgui/wiki/Reporting-issues) before reporting an issue.
 
